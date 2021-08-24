@@ -158,6 +158,43 @@
 }
 
 
+#carousel-content {
+  max-width: 1140px;
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 40px;
+
+  gap: 40px;
+}
+
+#carouselExampleControls {
+  width: 500px;
+}
+ 
+#carousel-title h1 {
+  color: var(--purple);
+  font-size: 46px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#carousel-title p {
+  color: var(--purple);
+
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+
 
 #video {
   background-color: var(--purple);
@@ -329,6 +366,17 @@
   
   #differentials-button {
     width: 90%;
+  }
+
+
+
+
+  #carouselExampleControls {
+    width: 90%;
+  }
+
+  #carousel-title p {
+    font-size: 13px;
   }
 
 
