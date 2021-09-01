@@ -15,3 +15,19 @@ function toggleMenu(event) {
 
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
+
+
+
+var accordion = document.getElementsByClassName("accordion");
+
+for (var i = 0; i < accordion.length; i++) {
+  
+  accordion[i].addEventListener("click", function(event) {
+    var result = event.target.nextElementSibling;
+    if (result.style.maxHeight) {
+      result.style.maxHeight = null;
+    } else {
+      result.style.maxHeight = result.scrollHeight + "px";
+    } 
+  });
+}

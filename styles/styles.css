@@ -36,7 +36,7 @@
 #hero-image #bolha {
   position: absolute;
   right: 0px;
-  top: 106px;
+  top: 155px;
   z-index: 1;
 }
 
@@ -44,7 +44,7 @@
   width: 1000px;
   position: absolute;
   right: 90px;
-  top: 106px;
+  top: 155px;
   z-index: 1;
   transform: rotate(20deg);
 }
@@ -128,17 +128,16 @@
   justify-content: space-between;
   align-items: center;
 
-  margin-top: 40px;
+  margin-top: 150px;
 }
 
 #differentials-box {
   display: flex;
   flex-direction: column;
-  align-items: center;
 
   padding: 50px 0;
 
-  width: 450px;
+  width: 500px;
 
   border-radius: 16px;
 
@@ -153,6 +152,8 @@
   display: flex;
   gap: 20px;
 
+  margin-left: 30px;
+
   margin-bottom: 30px;
 }
 
@@ -162,7 +163,7 @@
 #differential4 p,
 #differential5 p {
   font-weight: 500;
-  font-size: 32px;
+  font-size: 24px;
   color: var(--white);
 }
 
@@ -170,6 +171,7 @@
   width: 370px;
   height: 54px;
 
+  margin: 0 auto;
   margin-top: 24px;
 
   border: none;
@@ -195,7 +197,7 @@
   justify-content: space-between;
   align-items: center;
 
-  margin-top: 250px;
+  margin-top: 100px;
 
   gap: 40px;
 }
@@ -302,6 +304,61 @@
   cursor: pointer;
 }
 
+.ementa {
+  margin-top: 150px;
+  background-color: var(--purple);
+  padding: 50px 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ementa h1 {
+  font-weight: bold;
+  font-size: 1.87rem;
+  line-height: 2.81rem;
+  color: var(--yellow);
+  margin-bottom: 40px;
+}
+
+.ementa .menu-ementa {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-ementa .accordion {
+  width: 500px;
+  height: 49px;
+  background-color: var(--yellow);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 20px;
+
+  color: var(--purple);
+
+  cursor: pointer;
+}
+
+.menu-ementa p {
+  text-align: left;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.87rem;
+  
+  color: var(--white);
+
+  padding: 0 20px;
+  width: 500px;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s ease-out;
+}
+
 @media screen and (max-width: 1240px) {
   #hero-content {
     width: 100%;
@@ -346,7 +403,7 @@
     width: 100%;
     position: absolute;
     right: 10px;
-    top: 750px;
+    top: 800px;
     z-index: 1;
     transform: none;
   }
@@ -369,6 +426,10 @@
     flex-direction: column;
 
     gap: 50px;
+  }
+
+  #items-title h1{
+    font-size: 32px;
   }
 
   #differentials-content {
@@ -399,6 +460,7 @@
   #differential3,
   #differential4,
   #differential5 {
+    margin-left: 10px;
     gap: 30px;
   }
 
@@ -407,7 +469,7 @@
   #differential3 p,
   #differential4 p,
   #differential5 p {
-    font-size: 28px;
+    font-size: 16px;
   }
 
   #differentials-button {
@@ -492,7 +554,50 @@
     font-size: 28px;
   }
 
+  .ementa h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.57rem;
+    line-height: 2.81rem;
+    color: var(--yellow);
+    margin-bottom: 40px;
+  }
+
+  .ementa .menu-ementa {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-ementa .accordion {
+    width: 90%;
+    height: 49px;
+    background-color: var(--yellow);
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 0 20px;
+  
+    color: var(--purple);
+  
+    cursor: pointer;
+  }
+
   footer {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  #hero-image #produto {
+    width: 100%;
+    position: absolute;
+    right: 10px;
+    top: 1000px;
+    z-index: 1;
+    transform: none;
   }
 }
