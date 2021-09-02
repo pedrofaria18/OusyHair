@@ -187,6 +187,10 @@
   cursor: pointer;
 }
 
+#carousel {
+  background-color: var(--purple);
+}
+
 #carousel-content {
   max-width: 1140px;
 
@@ -198,6 +202,7 @@
   align-items: center;
 
   margin-top: 100px;
+  padding-bottom: 160px;
 
   gap: 40px;
 }
@@ -208,13 +213,14 @@
 
 #carousel-title h1 {
   color: var(--yellow);
-  font-size: 46px;
   text-align: center;
   margin-bottom: 20px;
 
   padding: 20px;
-  background-color: var(--purple);
   border-radius: 8px;
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
 }
 
 #carousel-title p {
@@ -305,7 +311,6 @@
 }
 
 .ementa {
-  margin-top: 150px;
   background-color: var(--purple);
   padding: 50px 0;
 
