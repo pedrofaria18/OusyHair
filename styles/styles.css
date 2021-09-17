@@ -403,6 +403,7 @@
   }
 
   #hero-text h1 {
+    margin-top: 40px;
     padding: 0 30px;
     font-size: 48px;
   }
