@@ -389,6 +389,18 @@
   transition: 0.4s ease-out;
 }
 
+footer {
+  background-color: var(--purple);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer img {
+  width: 100px;
+}
+
 @media screen and (max-width: 1240px) {
   #hero-content {
     width: 100%;
