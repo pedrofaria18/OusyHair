@@ -25,7 +25,7 @@
 }
 
 #hero-text p {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 400;
 
   margin-top: 8px;
@@ -33,10 +33,16 @@
   color: var(--white);
 }
 
+#hero-text p span {
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 700;
+}
+
 #hero-image #bolha {
   position: absolute;
   right: 0px;
-  top: 155px;
+  top: 168px;
   z-index: 1;
 }
 
@@ -44,7 +50,7 @@
   width: 750px;
   position: absolute;
   right: 65px;
-  top: 185px;
+  top: 180px;
   z-index: 1;
   transform: rotate(20deg);
 }
@@ -132,7 +138,8 @@
 }
 
 #differentials #tratada01 {
-  width: 700px;
+  width: 580px;
+  transform: rotate(20deg);
 }
 
 #differentials-box {
@@ -287,6 +294,12 @@
   width: 550px;
 }
 
+#buy-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #buy-text h1 {
   font-size: 56px;
   font-weight: 700;
@@ -294,8 +307,8 @@
   color: var(--purple);
 }
 
-#buy-text p {
-  font-size: 16px;
+#buy-text ul {
+  font-size: 24px;
   font-weight: 400;
 
   margin-top: 8px;
@@ -366,7 +379,7 @@
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.87rem;
-  
+
   color: var(--white);
 
   padding: 0 20px;
@@ -415,12 +428,12 @@
     z-index: 0;
     margin-top: 20px;
   }
-  
+
   #hero-image #produto {
     width: 100%;
     position: absolute;
     right: 10px;
-    top: 800px;
+    top: 730px;
     z-index: 1;
     transform: none;
   }
@@ -445,7 +458,7 @@
     gap: 50px;
   }
 
-  #items-title h1{
+  #items-title h1 {
     font-size: 32px;
   }
 
@@ -465,7 +478,6 @@
   #differentials-box {
     display: flex;
     flex-direction: column;
-    align-items: center;
 
     padding: 50px 0;
 
@@ -474,6 +486,7 @@
 
   #differentials #tratada01 {
     width: 100%;
+    transform: rotate(00deg);
   }
 
   #differential1,
@@ -481,7 +494,7 @@
   #differential3,
   #differential4,
   #differential5 {
-    margin-left: 10px;
+    margin-left: 25px;
     gap: 30px;
   }
 
@@ -562,8 +575,7 @@
     font-size: 36px;
   }
 
-  #buy-text p {
-    padding: 0 30px;
+  #buy-text ul {
     font-size: 20px;
   }
 
@@ -599,15 +611,15 @@
     width: 90%;
     height: 49px;
     background-color: var(--yellow);
-  
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
+
     padding: 0 20px;
-  
+
     color: var(--purple);
-  
+
     cursor: pointer;
   }
 

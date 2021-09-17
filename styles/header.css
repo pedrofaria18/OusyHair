@@ -35,6 +35,10 @@ a:hover {
   display: none;
 }
 
+#header img {
+  width: 100px;
+}
+
 @media (max-width: 600px) {
   #header {
     padding: 0 40px;
