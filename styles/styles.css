@@ -39,10 +39,16 @@
   font-weight: 700;
 }
 
+#hero-text p #span2 {
+  color: var(--white);
+  font-size: 30px;
+  font-weight: 700;
+}
+
 #hero-image #bolha {
   position: absolute;
   right: 0px;
-  top: 98px;
+  top: 105px;
   z-index: 1;
 }
 
