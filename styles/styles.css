@@ -42,14 +42,14 @@
 #hero-image #bolha {
   position: absolute;
   right: 0px;
-  top: 168px;
+  top: 98px;
   z-index: 1;
 }
 
 #hero-image #produto {
   width: 750px;
   position: absolute;
-  right: 65px;
+  right: 75px;
   top: 180px;
   z-index: 1;
   transform: rotate(20deg);
@@ -278,7 +278,7 @@
 
 #buy-content {
   max-width: 1140px;
-  height: 500px;
+  height: 600px;
 
   margin: 0 auto;
 
@@ -297,18 +297,27 @@
 #buy-text {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
 }
 
 #buy-text h1 {
-  font-size: 56px;
+  font-size: 42px;
   font-weight: 700;
 
   color: var(--purple);
 }
 
-#buy-text ul {
-  font-size: 24px;
+#buy-text p {
+  font-size: 20px;
+  font-weight: 400;
+
+  margin-top: 8px;
+
+  color: var(--purple);
+}
+
+#buy-text p span {
+  font-size: 20px;
   font-weight: 400;
 
   margin-top: 8px;
@@ -317,7 +326,7 @@
 }
 
 #buy-button {
-  width: 370px;
+  width: 390px;
   height: 54px;
 
   margin-top: 24px;
@@ -583,21 +592,25 @@ footer img {
     padding: 20px 0px;
   }
 
+  #buy-text {
+    display: flex;
+    align-items: center;
+  }
+
   #buy-text h1 {
     padding: 0 30px;
     font-size: 36px;
   }
 
-  #buy-text ul {
+  #buy-text p {
+    padding: 0 30px;
     font-size: 20px;
   }
 
   #buy-button {
-    margin-left: 5%;
-
     width: 90%;
 
-    font-size: 28px;
+    font-size: 24px;
   }
 
   #buy img {
